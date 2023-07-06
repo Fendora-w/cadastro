@@ -1,0 +1,10 @@
+/* Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) { 
+    .format {
+        width: 500px;
+        position: relative;
+        float: center;
+    }
+ } 
+
+ 

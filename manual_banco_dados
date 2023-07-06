@@ -1,0 +1,24 @@
+-- Criação do banco de dados
+CREATE DATABASE cadastro;
+
+-- Utiliza o banco de dados
+USE cadastro;
+
+-- Criação da tabela db_usuarios
+CREATE TABLE db_usuarios (
+  id INT AUTO_INCREMENT PRIMARY KEY,
+  nome VARCHAR(100) NOT NULL,
+  cpf VARCHAR(11) NOT NULL,
+  endereco VARCHAR(200),
+  telefone VARCHAR(20),
+  localizacao VARCHAR(100)
+);
+
+-- Criação da tabela db_usuarios_login
+CREATE TABLE db_usuarios_login (
+  id INT AUTO_INCREMENT PRIMARY KEY,
+  usuario_id INT NOT NULL,
+  usuario VARCHAR(50) NOT NULL,
+  senha VARCHAR(100) NOT NULL,
+  FOREIGN KEY (usuario_id) REFERENCES db_usuarios(id)
+);
