@@ -1,7 +1,9 @@
 # cadastro
-APP Aplicação para ADM para cadastro de usuários, consulta e delete de usuários
-Para executa faz o donwload dos arquivos o, o manual para criar o banco de dados está coom o script manual_banco_dados
-Para login criar ADM de acesso deve criar  um email para usuario e senha no banco de dados cadastrode forma injerçado .
+Corrigindo o texto:
+
+"O aplicativo (APP) é uma aplicação de gerenciamento para cadastro, consulta e exclusão de usuários. Para executá-lo, faça o download dos arquivos. O manual para criar o banco de dados está disponível junto com o script 'manual_banco_dados'.
+
+Para fazer login como administrador (ADM), é necessário criar um email e senha no banco de dados de cadastro de forma segura e adequada."
 
 
 ![Captura de tela de 2023-07-10 12-26-59](https://github.com/Fendora-w/cadastro/assets/69772177/175743c0-b409-4c2a-8719-845b67b3f0d2)
