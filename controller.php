@@ -29,7 +29,7 @@
 
       if(!empty($_POST['name']) && !empty($_POST['cpf'])  && !empty($_POST['endereco'])  && !empty($_POST['telefone'])  && !empty($_POST['localizacao'])){
    
-         $cadastro = new Cadastro($_POST['name'], $_POST['cpf'], $_POST['endereco'], $_POST['telefone'], $_POST['localizacao']);
+         $cadastro = new Cadastro($_POST['name'], str_replace([".", "-",";",","], "", $_POST['cpf']), $_POST['endereco'], $_POST['telefone'], $_POST['localizacao']);
          $conexao = new Conexao();
          $cadastroService = new cadastroService($conexao, $cadastro);
          
