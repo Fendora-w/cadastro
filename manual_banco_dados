@@ -17,6 +17,6 @@ CREATE TABLE db_usuarios (
 -- Criação da tabela db_usuarios_login
 CREATE TABLE db_usuarios_login (
   id INT AUTO_INCREMENT PRIMARY KEY,
-  usuario VARCHAR(50) NOT NULL,
+  email VARCHAR(50) NOT NULL,
   senha VARCHAR(100) NOT NULL
 );
