@@ -46,7 +46,7 @@
                 </tr>
             </thead>
             <tbody>
-                <? foreach($resultado as $usuarios){?> 
+                <?php foreach($resultado as $usuarios){?> 
                     <tr>       
                     <th scope="row"><?= $usuarios['id']?></th>
                     <td><?= $usuarios['nome']?></td>
@@ -55,7 +55,7 @@
                     <td><?= $usuarios['telefone']?></td>
                     <td><?= $usuarios['localizacao']?></td>
                     </tr>
-                <? }?>
+                <?php }?>
             </tbody>
             
         </table>
